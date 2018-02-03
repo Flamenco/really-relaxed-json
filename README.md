@@ -1,0 +1,1 @@
+See [https://www.npmjs.com/package/really-relaxed-json](https://www.npmjs.com/package/really-relaxed-json).
