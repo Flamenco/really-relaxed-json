@@ -5,13 +5,20 @@
 [https://www.npmjs.com/package/really-relaxed-json](https://www.npmjs.com/package/really-relaxed-json)
 
 ## Java
+*Note: The Java artifact has been migrated from Sonatype to Maven-Central*
 ```xml
-<repository>
-    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-</repository>
+<repositories>
+    <repository>
+        <id>central-snapshots</id>
+        <url>https://central.sonatype.com/repository/maven-snapshots/</url>
+        <releases><enabled>false</enabled></releases>
+        <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+</repositories>
+
 <dependency>
-    <groupid>tv.twelvetone.rjson</groupid>
-    <artifactid>rjson</artifactid>
-    <version>1.3.0-SNAPSHOT</version>
+    <groupId>tv.twelvetone.rjson</groupId>
+    <artifactId>rjson</artifactId>
+    <version>1.3.1-SNAPSHOT</version>
 </dependency>
 ```
