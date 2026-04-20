@@ -5,7 +5,7 @@
 [https://www.npmjs.com/package/really-relaxed-json](https://www.npmjs.com/package/really-relaxed-json)
 
 ## Java
-*Note: The Java artifact has been migrated from Sonatype to Maven-Central, and is no longer SNAPSHOT*
+*Note: The Java artifact has been migrated from Sonatype's legacy OSSRH to Maven Central via the new Central Publisher Portal, and is now a release (no longer SNAPSHOT).*
 ```xml
 <repositories>
     <repository>
